@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/styles/products.css">
+   <title>Apple store</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+</head>
+
+<body>
+   <%- include('./header.ejs') %>
+      <main>
+         <div class="products-element products-container">
+            <span class="products-element__name">
+               <%= product.name %>
+            </span>
+            <img class="img-item" src="<%= product.img %>" />
+            <span class="products-element__price">
+               ⚡️ <%= product.price %> USD
+            </span>
+            <button class="products-element__btn" >
+               <a id="${index}" href="/product/${index}"><span>Купить</span></a>
+            </button>
+         </div>
+
+
+      </main>
+
+
+
+      <script src="/script.js"></script>
+</body>
+
+</html>

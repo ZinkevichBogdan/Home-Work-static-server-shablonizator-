@@ -1,0 +1,62 @@
+[
+   {
+       "id": "el1",
+       "name": "APPLE iPhone 13 128GB (PRODUCT) RED (MLPJ3HU/A)",
+       "img": "/catalog/iphone 11.png",
+       "price": 13600
+   },
+   {
+       "id": "el2",
+       "name": "APPLE iPhone 13 Mini 256GB Starlight (MLK63HU/A)",
+       "img": "/catalog/iphone 13(Starlight).png",
+       "price": 2390
+   },
+   {
+       "id": "el3",
+       "name": "APPLE iPhone 12 mini 256GB Green (MGEE3)",
+       "img": "/catalog/iphone 12(green).png",
+       "price": 21600
+   },
+   {
+       "id": "el1",
+       "name": "APPLE iPhone 11 128GB (PRODUCT) black (MLPJ3HU/A)",
+       "img": "/catalog/Iphone 11.png",
+       "price": 13600
+   },
+   {
+       "id": "el2",
+       "name": "APPLE iPhone 13 Mini 256GB Starlight (MLK63HU/A)",
+       "img": "/catalog/iphone 13(Starlight).png",
+       "price": 23900
+   },
+   {
+      "id": "el1",
+      "name": "APPLE iPhone 13 128GB (PRODUCT) RED (MLPJ3HU/A)",
+      "img": "/catalog/Iphone(red).png",
+      "price": 13600
+  },
+  {
+      "id": "el2",
+      "name": "APPLE iPhone 13 Mini 256GB Starlight (MLK63HU/A)",
+      "img": "/catalog/iphone 13(Starlight).png",
+      "price": 2390
+  },
+  {
+      "id": "el3",
+      "name": "APPLE iPhone 12 mini 256GB Green (MGEE3)",
+      "img": "/catalog/iphone 12(green).png",
+      "price": 21600
+  },
+  {
+      "id": "el1",
+      "name": "APPLE iPhone 11 128GB (PRODUCT) black (MLPJ3HU/A)",
+      "img": "/catalog/Iphone 11.png",
+      "price": 13600
+  },
+  {
+      "id": "el2",
+      "name": "APPLE iPhone 13 Mini 256GB Starlight (MLK63HU/A)",
+      "img": "/catalog/iphone 13(Starlight).png",
+      "price": 23900
+  }
+]
