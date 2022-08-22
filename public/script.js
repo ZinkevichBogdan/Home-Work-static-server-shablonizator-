@@ -9,7 +9,7 @@ let buttonText = 'Перейти к товару'
 elemCatalog.addEventListener('click', getProduct)
 
 async function getProduct() {
-  
+    spinnerPage.handleClear()
     let htmlCatalog = '';
     let { data } = await axios.get('/products')
     data.forEach((item,index) => {
