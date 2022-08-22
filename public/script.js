@@ -1,7 +1,7 @@
 
 const catalog = document.querySelector('.catalog')
 const elemCatalog = document.querySelector('.elem-catalog');
-const ROOT_SPINNER = document.getElementById('spinner');
+const ROOT_SPINNER = document.querySelector('.spinner');
 
 
 let buttonText = 'Перейти к товару'
@@ -9,13 +9,14 @@ let buttonText = 'Перейти к товару'
 elemCatalog.addEventListener('click', getProduct)
 
 async function getProduct() {
+  
     let htmlCatalog = '';
     let { data } = await axios.get('/products')
     data.forEach((item,index) => {
 
 
         htmlCatalog += `
-       gi
+       
         <li class="products-element >
         
             <span class="products-element__name">${item.name}</span>
@@ -54,11 +55,6 @@ async function getProduct() {
 
 
 
-
-
-
-
-/*
 class Spinner {
    
    handleClear() {
@@ -67,9 +63,7 @@ class Spinner {
  
    render() {
        const html = `
-       <div class="spinner-container">
            <img class="spinner__img" src="img/spinner.svg" />
-       </div>
    `
  
        ROOT_SPINNER.innerHTML = html;
@@ -78,9 +72,7 @@ class Spinner {
  
 const spinnerPage = new Spinner();
  
-
-*/
-
+spinnerPage.render()
 
 
 

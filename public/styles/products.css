@@ -242,8 +242,8 @@ body {
 
 /*  Preloader   */
 
-.spinner-container {
-   position: fixed;
+.spinner {
+
    top: 0;
    left: 0;
    width: 100%;
